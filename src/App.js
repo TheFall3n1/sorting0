@@ -10,7 +10,7 @@ import './App.css';
 
 class App extends Component{
     state = { 
-        array: [],
+        array: [], 
         arraySteps:[],
         colorKey:[],
         colorSteps:[],
@@ -194,3 +194,4 @@ class App extends Component{
 
 
 export default App;
+ReactDOM.render(<App />, document.getElementById("sortApp"));
