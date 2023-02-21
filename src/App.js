@@ -15,7 +15,7 @@ class App extends Component{
         colorKey:[],
         colorSteps:[],
         currentStep: 0,
-        count: 20,
+        count: 5,
         delay: 500,
         algorithm: 'Bubble Sort',
         timeouts: [],
@@ -194,4 +194,4 @@ class App extends Component{
 
 
 export default App;
-ReactDOM.render(<App />, document.getElementById("sortApp"));
+//ReactDOM.render(<App />, document.getElementById("sortApp"));
